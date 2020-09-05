@@ -1,0 +1,297 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+
+header{
+	padding:40px 0;
+}
+.container{
+	width:90%;
+	/*border:1px solid red;*/
+	margin:auto;
+}
+.container::after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.logo{
+	width:12%;
+/*	border:1px solid red;*/
+	float:left;
+	margin-top:4px;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width: 65%;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: 8px;
+}
+.menu ul{
+	list-style:none;
+	float:right;
+}
+
+.menu ul li{
+	float:left;
+}
+.menu ul li:last-child a{
+	margin-right:0;
+}
+.menu ul li a{
+	text-decoration: none;
+    text-transform: uppercase;
+    display:inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color:#626262;
+    margin:0 40px;
+    border-bottom:1px solid transparent;
+    transition:.3s;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #333333;
+}
+
+/*banner start*/
+
+.bannner{
+
+}
+
+.bnr_img{
+
+}
+.bnr_img img{
+	width:100%;
+}
+
+/*banner end*/
+/*getway start*/
+.weekend_getway{
+	padding:90px 0 130px;
+}
+.container2{
+	width:80%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+}
+.g_content{}
+.g_tag{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#b4ad9e;
+	text-transform: uppercase;
+}
+.g_title{
+	font-size:30px;
+	font-weight:400;
+	margin:30px 0 35px;
+}
+.g_paragraph{
+	line-height: 25px;
+    margin-bottom: 50px;
+    letter-spacing: -.5px;
+    word-spacing: 2px;
+}
+
+/*getway End*/
+
+/*blog start*/
+	
+.blog{
+
+}
+.b_content::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.single{
+	width:47%;
+	/*border:1px solid black;*/
+	float:left;
+	padding-bottom:130px;
+}
+.single:nth-child(even){
+	margin-left:6%;
+}
+.single img{
+	width:100%;
+}
+.blog_tag{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px;
+	font-weight:300;
+	text-transform:uppercase;
+	margin-top:30px;
+}
+.blog_title{
+	font-size: 30px;
+    font-weight: 400;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    margin:30px 0 40px;
+}
+.blog_p{
+	line-height: 25px;
+    word-spacing: 1px;
+}
+
+/*blog end*/
+/*news letter start*/
+
+.newsletter{
+	background:#F0F0F0;
+}
+.signup{
+	/*border:1px solid red;*/
+	width:400px;
+	margin:0 auto;
+	text-align:center;
+	padding:70px 0;
+}
+.signup h1{
+	font-size:30px;
+	font-weight:400;
+	color:#333333;
+	margin-bottom: 70px;
+}
+.signUp_form{
+	/*border:1px solid red;*/
+	position: relative;
+
+
+
+}
+.signUp_form input[type=email]{
+	font-family: 'Playfair Display', serif;
+	font-size:14px;
+	color:#626262;
+	width: 350px;
+    height: 40px;
+    border:none;
+    padding-left:5px;
+    padding-right:45px;
+	border-bottom:1px solid #333333;
+	background:transparent;
+	
+}
+.signUp_form input[type=email]:focus{
+	outline:none;
+
+}
+.signUp_form img{
+
+}
+.signUp_form button{
+
+	background: transparent;
+    border: none;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    cursor:pointer;
+    
+}
+.signUp_form button:focus{
+	outline:none;
+}
+/*news letter end*/
+
+/*blog2 start*/
+.blog2{
+
+}
+.b2_content{
+	margin-top:100px;
+	overflow:hidden;
+}
+.pb_0{
+	padding-bottom:0;
+}
+
+/*blog2 end*/
+
+/*load more start*/
+.loadmore{
+	text-align:center;
+	padding:170px 0 190px;
+}
+.loadmore button{
+	font-family: 'Playfair Display', serif;
+	font-size:20px;
+	padding:25px 40px;
+	color:#626262;
+	background:transparent;
+	/*border:none;*/
+	cursor:pointer;
+    transition:.2s;
+}
+.loadmore button:hover{
+    background-color:#444444;
+    color:white;
+}
+
+
+/*load more end*/
+
+/*footer start*/
+
+footer{
+	background-color:#f0f0f0;
+	padding:30px 0;
+}
+.f_content{
+    margin-top:5px;
+}
+.f_content::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.left{
+	font-size:14px;
+	color:#000;
+	float:left;
+
+}
+.inline{
+	display: inline-block;
+	margin-left:30px;
+	word-spacing: 1px;
+    cursor:pointer;
+}
+.inline:first-child{
+	margin-left:0;
+}
+.right{
+	float:right;
+}
+.right ul{
+
+}
+.right ul li{
+	list-style:none;
+	float:left;
+}
+.right ul li a{
+	display:inline-block;
+	margin:0 12px;
+}
+.right ul li:last-child a{
+	margin-right:0;
+}
+
+/*footer end*/
